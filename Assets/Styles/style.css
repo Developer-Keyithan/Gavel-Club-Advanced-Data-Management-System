@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    background: #f0fdff;
+    box-shadow: 0 0 5px #0007;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 50px 20px ;
+}
+
+fieldset {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+fieldset button {
+    height: 40px;
+    width: 240px;
+    font-size: 16px;
+    margin-top: 0;
+    position: relative;
+    left: 660px;
+}
+
+fieldset button:hover {
+    width: 240px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input {
+    padding: 10px 10px;
+    font-size: 16px;
+    background: #afe8f0;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 2px solid darkblue;
+    background: #b9f7ff;
+}
+
+input::placeholder {
+    color: #000c;
+}
+
+button {
+    background: #00a1b6;
+    border: none;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.6s ease;
+}
+button:hover {
+    width: 500px;
+    background: #007d8d;
+    cursor: pointer;
+}
+
+.meaning, .example {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#dynamicRequiredImageContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+    width: 500px;
+    height: fit-content;
+    background: #f0fdff;
+    padding: 20px 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #0007;
+}
+
+#dynamicRequiredImageContainer h1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#dynamicRequiredImageContainer .imageContainer {
+    flex-basis: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+#dynamicRequiredImageContainer .imageContainer .imgDes {
+    margin: 0;
+    height: 35px;
+}
+
+#dynamicRequiredImageContainer .imageContainer .imageDiv {
+    width: 100%;
+    max-height: 135px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#dynamicRequiredImageContainer .imageContainer .imageDiv .image {
+    width: 100%;
+}
