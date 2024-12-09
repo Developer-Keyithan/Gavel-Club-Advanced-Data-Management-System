@@ -83,7 +83,13 @@ button:hover {
     gap: 15px;
 }
 
-#dynamicRequiredImageContainer {
+#dynamicImageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#dynamicRequiredImageContainer,
+#dynamicOptionalImageContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -97,13 +103,23 @@ button:hover {
     box-shadow: 0 0 5px #0007;
 }
 
-#dynamicRequiredImageContainer h1 {
+#dynamicOptionalImageContainer {
+    max-height: 1500px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+#dynamicOptionalImageContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#dynamicImageContainer h1 {
     width: 100%;
     text-align: center;
     margin: 20px 0;
 }
 
-#dynamicRequiredImageContainer .imageContainer {
+.imageContainer {
     flex-basis: 240px;
     display: flex;
     flex-direction: column;
@@ -111,12 +127,12 @@ button:hover {
     margin-top: 20px;
 }
 
-#dynamicRequiredImageContainer .imageContainer .imgDes {
+.imageContainer .imgDes {
     margin: 0;
     height: 50px;
 }
 
-#dynamicRequiredImageContainer .imageContainer .imageDiv {
+.imageContainer .imageDiv {
     width: 100%;
     max-height: 135px;
     overflow: hidden;
@@ -124,6 +140,18 @@ button:hover {
     margin: 0;
 }
 
-#dynamicRequiredImageContainer .imageContainer .imageDiv .image {
+.imageContainer .imageDiv .image {
     width: 100%;
+}
+
+.frame {
+    padding: 15px;
+    background: #f0fdff;
+    box-shadow: 0 0 5px #0007;
+    border-radius: 15px;
+}
+
+iframe {
+    width: 480px;
+    height: 270px;
 }

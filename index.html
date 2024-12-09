@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Addvanced Management System</title>
     <link rel="stylesheet" href="Assets/Styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
                 <fieldset id="theme">
                     <legend>Theme Intro</legend>
                     <input type="text" id="themeImage" name="themeSlide" placeholder="Enter Theme Slide Image URL" required>
-                    <input type="text" id="themeImage" placeholder="Enter Theme Image URL For Decorating (Optional)">
+                    <input type="text" id="themeImage" name="themeOp" placeholder="Enter Theme Image URL For Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="intro">
@@ -50,8 +51,8 @@
                 <fieldset id="grammarian-intro">
                     <legend>Grammarian Intro</legend>
                     <input type="text" id="grammarianImage" name="grammarianSlide" placeholder="Enter Grammarian Intro Slide Image URL" required>
-                    <input type="text" id="grdImageOne" placeholder="Enter Grammarian Images URL For Slide Decorating (Optional)">
-                    <input type="text" id="grdImageTwo" placeholder="Enter Grammarian Images URL For Slide Decorating (Optional)">
+                    <input type="text" id="grdImageOne" name="grammarianOpOne" placeholder="Enter Grammarian Images URL For Slide Decorating (Optional)">
+                    <input type="text" id="grdImageTwo" name="grammarianOpTwo" placeholder="Enter Grammarian Images URL For Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="grammarianBackground">
@@ -62,8 +63,8 @@
                 <fieldset id="timer-intro">
                     <legend>Timer Intro</legend>
                     <input type="text" id="timerImage" name="timerSlide" placeholder="Enter Timer Intro Slide Image URL" required>
-                    <input type="text" id="timerImageOne" placeholder="Enter Timer Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="timerImageTwo" placeholder="Enter Timer Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="timerImageOne" name="timerOpOne" placeholder="Enter Timer Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="timerImageTwo" name="timerOpTwo" placeholder="Enter Timer Image URL For Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="timer-background">
@@ -74,41 +75,41 @@
                 <fieldset id="ah-counter-intro">
                     <legend>Ah-Counter Intro</legend>
                     <input type="text" id="ahCounterImage" name="ahCounterSlide" placeholder="Enter Ah-Counter Intro Slide Image URL" required>
-                    <input type="text" id="ahCounterImageOne" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterImageTwo" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterImageThree" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterImageFour" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterImageFive" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterImageOne" name="ahCounterOpOne" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterImageTwo" name="ahCounterOpTwo" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterImageThree" name="ahCounterOpThree" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterImageFour" name="ahCounterOpFour" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterImageFive" name="ahCounterOpFive" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="ah-counter-background">
                     <legend>Ah-Counter's Slide</legend>
                     <input type="text" id="ahCounterBG" name="ahCounterBG" placeholder="Enter Ah-Counter's Slide Background Image URL" required>
-                    <input type="text" id="ahCounterDecorationImageOne" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterDecorationImageTwo" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterDecorationImageThree" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
-                    <input type="text" id="ahCounterDecorationImageFour" placeholder="Enter Ah-Counter Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterDecorationImageOne" name="pillerOpOne" placeholder="Enter Ah-Counter's Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterDecorationImageTwo" name="pillerOpTwo" placeholder="Enter Ah-Counter's Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterDecorationImageThree" name="pillerOpThree" placeholder="Enter Ah-Counter's Image URL For Slide Decorating (Optional)">
+                    <input type="text" id="ahCounterDecorationImageFour" name="pillerOpFour" placeholder="Enter Ah-Counter's Image URL For Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="prepare-speakers">
                     <legend>Prepare Speakers</legend>
                     <input type="text" id="prepareSpeakersBG" name="prepareSpeakersBG" placeholder="Enter Prepare Speaker's Slide Background Image URL" required>
-                    <input type="text" id="prepareSpeakersDecorationImageOne" placeholder="Enter Image URL For Prepare Speaker's Slide Decorating (Optional)">
-                    <input type="text" id="prepareSpeakersDecorationImageTwo" placeholder="Enter Image URL For Prepare Speaker's Slide Decorating (Optional)">
+                    <input type="text" id="prepareSpeakersDecorationImageOne" name="prepareSpeakerOpOne" placeholder="Enter Image URL For Prepare Speaker's Slide Decorating (Optional)">
+                    <input type="text" id="prepareSpeakersDecorationImageTwo" name="prepareSpeakerOpTwo" placeholder="Enter Image URL For Prepare Speaker's Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="round-robin">
                     <legend>Round Robin</legend>
                     <input type="text" id="roundRobinBG" name="roundRobinBG" placeholder="Enter Round Robin Slide Background Image URL" required>
-                    <input type="text" id="roundRobinDecorationImageOne" placeholder="Enter Image URL For Round Robin Slide Decorating (Optional)">
-                    <input type="text" id="roundRobinDecorationImageTwo" placeholder="Enter Image URL For Round Robin Slide Decorating (Optional)">
+                    <input type="text" id="roundRobinDecorationImageOne" name="roundRobinOpOne" placeholder="Enter Image URL For Round Robin Slide Decorating (Optional)">
+                    <input type="text" id="roundRobinDecorationImageTwo" name="roundRobinOpTwo" placeholder="Enter Image URL For Round Robin Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="table-topic">
                     <legend>Table Topic</legend>
                     <input type="text" id="tableTopicBG" name="tableTopicBG" placeholder="Enter Table Topic Slide Background Image URL" required>
-                    <input type="text" id="tableTopicDecorationImageOne" placeholder="Enter Image URL For Table Topic Slide Decorating (Optional)">
-                    <input type="text" id="tableTopicDecorationImageTwo" placeholder="Enter Image URL For Table Topic Slide Decorating (Optional)">
+                    <input type="text" id="tableTopicDecorationImageOne" name="tableTopicOpOne" placeholder="Enter Image URL For Table Topic Slide Decorating (Optional)">
+                    <input type="text" id="tableTopicDecorationImageTwo" name="tableTopicOpTwo" placeholder="Enter Image URL For Table Topic Slide Decorating (Optional)">
                 </fieldset>
     
                 <fieldset id="feedback">
@@ -126,8 +127,16 @@
         </div>
     </div>
 
-    <div id="dynamicRequiredImageContainer">
-        <h1>Required Images</h1>
+    <div id="dynamicImageContainer">
+        <div class="frame">
+            <iframe src="https://developer-keyithan.github.io/Uki-Gavel-Club-Slide/" frameborder="0"></iframe>
+        </div>
+        <div id="dynamicRequiredImageContainer">
+            <h1>Required Images</h1>
+        </div>
+        <div id="dynamicOptionalImageContainer">
+            <h1>Optional Images</h1>
+        </div>
     </div>
 
     <script src="Assets/JS/script.js"></script>
